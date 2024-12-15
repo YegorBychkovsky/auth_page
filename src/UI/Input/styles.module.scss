@@ -1,0 +1,66 @@
+.fieldBlock {
+  .inputWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: var(--bg-color);
+    border-radius: 1px;
+    padding: 0 20px;
+
+    @media (max-width: 1440px) {
+      padding: 0 10px;
+    }
+
+    label {
+      position: absolute;
+      padding: 1px 12px;
+      font-size: 13px;
+      font-weight: 400;
+      background: var(--dark-bg-color);
+      top: -5px;
+
+      @media (max-width: 1440px) {
+        padding: 1px 6px;
+      }
+    }
+
+    .input {
+      border: none;
+      color: var(--color-white);
+      background: var(--bg-color);
+
+      width: 100%;
+      min-width: 300px;
+      padding: 15px;
+
+      @media (max-width: 1440px) {
+        min-width: 150px;
+        padding: 7px;
+      }
+    }
+
+    .timer,
+    .resendButton {
+      color: var(--links-color);
+      background: var(--light-background-color);
+      padding: 5px 15px;
+      border-radius: 1px;
+      margin-right: 20px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .resendButton {
+      cursor: pointer;
+    }
+  }
+  .validation {
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    padding-top: 10px;
+
+    span {
+      color: var(--main-color);
+    }
+  }
+}

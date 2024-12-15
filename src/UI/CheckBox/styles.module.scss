@@ -1,0 +1,23 @@
+.checkBoxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  .checkbox {
+    width: 16px;
+    height: 16px;
+    background: var(--color-light);
+    cursor: pointer;
+    border-radius: 1px;
+
+    &_checked {
+      background: url("../../assets/icons/check.svg") center no-repeat;
+      background-size: 12px;
+    }
+  }
+  .checkboxName {
+    @media (max-width: 1440px) {
+      font-size: 12px;
+    }
+  }
+}

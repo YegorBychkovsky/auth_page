@@ -1,0 +1,18 @@
+.button {
+  color: var(--color-white);
+  text-align: center;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 1px;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    outline: none;
+    background: #790604;
+  }
+
+  &-red {
+    background: var(--color-red);
+  }
+}

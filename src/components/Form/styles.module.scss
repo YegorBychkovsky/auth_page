@@ -1,0 +1,13 @@
+.form {
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .agreementBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+  }
+}
