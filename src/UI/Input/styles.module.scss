@@ -41,11 +41,12 @@
 
     .timer,
     .resendButton {
+      position: absolute;
+      right: 35px;
       color: var(--links-color);
       background: var(--light-background-color);
       padding: 5px 15px;
       border-radius: 1px;
-      margin-right: 20px;
       font-size: 14px;
       white-space: nowrap;
     }
